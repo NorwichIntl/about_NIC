@@ -4,7 +4,7 @@ body {
     background-image: url('logo.png');
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed; /* Ensures the background is fixed */
+    background-attachment: fixed;
 }
 
 .section {
@@ -12,7 +12,7 @@ body {
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 8px;
-    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for sections */
+    background-color: rgba(255, 255, 255, 0.8);
 }
 
 .section h2 {
@@ -26,4 +26,16 @@ body {
 
 section ul li {
     margin-bottom: 5px;
+}
+
+/* Location Styles */
+p:last-child {
+    text-align: center;
+    margin-top: 30px;
+    font-style: italic;
+    color: #000; /* Black text */
+    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
+    padding: 5px 10px; /* Add some padding for better visibility */
+    border-radius: 5px; /* Add rounded corners */
+    display: inline-block; /* Make the background fit the text */
 }
